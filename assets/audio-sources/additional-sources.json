@@ -1,0 +1,50 @@
+[
+  {
+    "file": "stream.ogg",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/9d229d2be7cb6619135d55ff9e49926e40298686/data/resources/sounds/stream.ogg",
+    "sha256": "ce372c5db561168636647dd7d4aac39ef1785ae5d415ad0e589186ce1b7c5796"
+  },
+  {
+    "file": "birds.ogg",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/9d229d2be7cb6619135d55ff9e49926e40298686/data/resources/sounds/birds.ogg",
+    "sha256": "e59b19c2a377d5835d07e7ec8f8c876b9f40ae7f703738b55d616ef96a1638b2"
+  },
+  {
+    "file": "crickets.ogg",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/9d229d2be7cb6619135d55ff9e49926e40298686/data/resources/sounds/summer-night.ogg",
+    "sha256": "2eb2efb8f5c6733e74dc8546f2ecfac40407e8242a9eed96a72e0fc68790ac6f"
+  },
+  {
+    "file": "fireplace.ogg",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/9d229d2be7cb6619135d55ff9e49926e40298686/data/resources/sounds/fireplace.ogg",
+    "sha256": "a6395379a32c2dc30dd870c4571ded4a5311435aacfe354b3a82a9b3ab98620b"
+  },
+  {
+    "file": "cafe.ogg",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/9d229d2be7cb6619135d55ff9e49926e40298686/data/resources/sounds/coffee-shop.ogg",
+    "sha256": "397b5d95f06df69ba2989147cf9c37a417b2dc5950c1a16fbe6be6fa372d25ef"
+  },
+  {
+    "file": "forest.m4a",
+    "url": "https://raw.githubusercontent.com/codybrom/Blankie/4bec92dbb22c1e1dc15072edc748f388408c7eab/Blankie/Resources/Sounds/forest.m4a",
+    "sha256": "b2a71c2f86a642ee2ad649f358fcf5862f0e5b493897e596ab9abe89eb1fef59"
+  },
+  {
+    "file": "pink.m4a",
+    "url": "https://raw.githubusercontent.com/codybrom/Blankie/4bec92dbb22c1e1dc15072edc748f388408c7eab/Blankie/Resources/Sounds/pink-noise.m4a",
+    "sha256": "a272ef2c56027f9fea09dbf47e8b22167cf57c8f7c8beae752739265551404a9"
+  },
+  {
+    "file": "green.m4a",
+    "url": "https://raw.githubusercontent.com/codybrom/Blankie/4bec92dbb22c1e1dc15072edc748f388408c7eab/Blankie/Resources/Sounds/green-noise.m4a",
+    "sha256": "b5d3b23159ba97b61bfc8e7c81a5beaefb88434c944f506557b926a1e66b066a"
+  },
+  {
+    "file": "thunder.ogg",
+    "url": "https://raw.githubusercontent.com/mateusfg7/Noisekun/d32024c67aba7c0577e1609944af00b9df1b7775/.github/assets/sounds/storm.ogg",
+    "sha256": "cd18b1824ab55c82112e63526d4ceee668ddcad85335d1006694b6e8dce6b191",
+    "author": "Boryslaw Kozielski",
+    "license": "CC0-1.0",
+    "source": "https://freesound.org/people/Boryslaw_Kozielski/sounds/316831/"
+  }
+]
