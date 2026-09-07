@@ -12,13 +12,13 @@
   </p>
 </div>
 
-![AI Gauge](assets/showcase/hero-en.png)
+![AI Gauge](assets/showcase/hero-en.jpg)
 
 Rendered from the current app’s native UI components with fictional account and usage data. The monochrome image uses an opaque background for consistent rendering; glass appearance varies with the desktop.
 
 <p align="center">
-  <a href="assets/showcase/usage-en.png"><img src="assets/showcase/usage-en.png" alt="Usage details" width="49%"></a>
-  <a href="assets/showcase/mono-en.png"><img src="assets/showcase/mono-en.png" alt="Monochrome interface" width="49%"></a>
+  <a href="assets/showcase/usage-en.jpg"><img src="assets/showcase/usage-en.jpg" alt="Usage details" width="49%"></a>
+  <a href="assets/showcase/mono-en.jpg"><img src="assets/showcase/mono-en.jpg" alt="Monochrome interface" width="49%"></a>
 </p>
 
 ## Current version
@@ -51,13 +51,13 @@ See [release status](distribution/RELEASE_STATUS.md) and [changes](distribution/
 
 Activity-driven rocket states and background sounds currently follow **Codex only**. Missing data remains unavailable rather than becoming zero. API-equivalent cost estimates are not subscription charges; local history may include multiple accounts previously used on the same Mac. Community reset odds are not an official promise.
 
-![White noise selection](assets/showcase/sounds-en.png)
+![White noise selection](assets/showcase/sounds-en.jpg)
 
-![Rocket activity states](assets/showcase/rocket-en.png)
+![Rocket activity states](assets/showcase/rocket-en.jpg)
 
 ## Install
 
-1. Download `AI Gauge.dmg` and `SHA256SUMS.txt` from the [Beta release](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53).
+1. Download `AI-Gauge.dmg` and `SHA256SUMS.txt` from the [Beta release](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53).
 2. Verify the file with `shasum -a 256 -c SHA256SUMS.txt` from that folder.
 3. Open the DMG and drag **AI Gauge** into **Applications**.
 4. Open it from Applications, then eject the installation disk. Click the rocket in the top menu bar.

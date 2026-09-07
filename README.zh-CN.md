@@ -12,13 +12,13 @@
   </p>
 </div>
 
-![AI Gauge](assets/showcase/hero-zh.png)
+![AI Gauge](assets/showcase/hero-zh.jpg)
 
 使用当前应用的原生界面组件渲染，账号及用量均为示例数据。单色图采用不透明背景以保持渲染一致，实际毛玻璃效果随桌面背景变化。
 
 <p align="center">
-  <a href="assets/showcase/usage-zh.png"><img src="assets/showcase/usage-zh.png" alt="用量统计" width="49%"></a>
-  <a href="assets/showcase/mono-zh.png"><img src="assets/showcase/mono-zh.png" alt="单色界面" width="49%"></a>
+  <a href="assets/showcase/usage-zh.jpg"><img src="assets/showcase/usage-zh.jpg" alt="用量统计" width="49%"></a>
+  <a href="assets/showcase/mono-zh.jpg"><img src="assets/showcase/mono-zh.jpg" alt="单色界面" width="49%"></a>
 </p>
 
 ## 当前版本
@@ -51,9 +51,9 @@
 
 火箭任务状态和运行时白噪音目前仅跟随 **Codex**。缺失数据显示不可用，不冒充零值。费用是 API 等价估算，不是订阅账单；本机日志可能包含不同账号时期的数据。网友重置预测不代表官方承诺。
 
-![白噪音选择](assets/showcase/sounds-zh.png)
+![白噪音选择](assets/showcase/sounds-zh.jpg)
 
-![火箭任务状态](assets/showcase/rocket-zh.png)
+![火箭任务状态](assets/showcase/rocket-zh.jpg)
 
 ## 安装
 
