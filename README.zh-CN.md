@@ -51,6 +51,8 @@
 
 火箭任务状态和运行时白噪音目前仅跟随 **Codex**。缺失数据显示不可用，不冒充零值。费用是 API 等价估算，不是订阅账单；本机日志可能包含不同账号时期的数据。网友重置预测不代表官方承诺。
 
+![白噪音选择](assets/showcase/sounds-zh.png)
+
 ## 安装
 
 1. 从 [Beta 下载页](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53) 取得 DMG 与 `SHA256SUMS.txt`。

@@ -51,6 +51,8 @@ See [release status](distribution/RELEASE_STATUS.md) and [changes](distribution/
 
 Activity-driven rocket states and background sounds currently follow **Codex only**. Missing data remains unavailable rather than becoming zero. API-equivalent cost estimates are not subscription charges; local history may include multiple accounts previously used on the same Mac. Community reset odds are not an official promise.
 
+![White noise selection](assets/showcase/sounds-en.png)
+
 ## Install
 
 1. Download `AI Gauge.dmg` and `SHA256SUMS.txt` from the [Beta release](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53).
