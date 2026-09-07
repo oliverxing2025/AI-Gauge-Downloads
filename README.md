@@ -53,6 +53,8 @@ Activity-driven rocket states and background sounds currently follow **Codex onl
 
 ![White noise selection](assets/showcase/sounds-en.png)
 
+![Rocket activity states](assets/showcase/rocket-en.png)
+
 ## Install
 
 1. Download `AI Gauge.dmg` and `SHA256SUMS.txt` from the [Beta release](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53).

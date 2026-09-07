@@ -53,6 +53,8 @@
 
 ![白噪音选择](assets/showcase/sounds-zh.png)
 
+![火箭任务状态](assets/showcase/rocket-zh.png)
+
 ## 安装
 
 1. 从 [Beta 下载页](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53) 取得 DMG 与 `SHA256SUMS.txt`。
