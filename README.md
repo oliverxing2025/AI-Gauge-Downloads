@@ -102,7 +102,15 @@ Read the [privacy statement](distribution/PRIVACY.md) for per-provider destinati
 
 ## Support
 
-**Settings → Buy the author a coffee** opens the optional WeChat support window. Donations do not unlock features. Independent developer: **小奥**. No public international coffee link is configured.
+If AI Gauge helps you, a Star is appreciated. You can also buy me a coffee to support continued maintenance.
+
+<p align="center">
+  <a href="assets/WeChatSupport.jpg"><img src="assets/WeChatSupport.jpg" alt="Support 小奥 via WeChat" width="220"></a>
+</p>
+
+Scan with WeChat to donate, or click the image to view it at full size. The code is also available in **Settings → Buy the author a coffee**.
+
+Donations are entirely optional. All features are free to use, whether or not you donate. Independent developer: **小奥**.
 
 ## License & acknowledgements
 
