@@ -1,6 +1,11 @@
 <div align="center">
   <img src="assets/AppIcon-1024.png" alt="AI Gauge icon" width="104">
   <h1>AI Gauge</h1>
+  <p>
+    <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.53/AI-Gauge.dmg"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%20macOS%20%E5%AE%89%E8%A3%85%E5%8C%85%20%C2%B7%20DMG-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="下载 macOS 安装包 · DMG" height="40"></a>
+  </p>
+  <p><strong>0.1.0 Beta · build 53</strong> · macOS 14+ · Apple Silicon / Intel</p>
+  <p><a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53">版本说明</a> · <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.53/SHA256SUMS.txt">SHA-256</a></p>
   <p><strong>AI 用量与状态，一眼掌握。</strong></p>
   <p>额度、用量、重置预报与运行时白噪音<br>收进 Mac 顶部菜单栏。</p>
   <p><a href="#当前版本">当前版本</a> · <a href="#功能概览">功能概览</a> · <a href="#安装">安装</a> · <a href="#设置">设置</a> · <a href="#隐私">隐私</a> · <a href="README.md">English</a></p>

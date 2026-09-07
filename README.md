@@ -1,6 +1,11 @@
 <div align="center">
   <img src="assets/AppIcon-1024.png" alt="AI Gauge icon" width="104">
   <h1>AI Gauge</h1>
+  <p>
+    <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.53/AI-Gauge.dmg"><img src="https://img.shields.io/badge/Download%20for%20macOS%20%C2%B7%20DMG-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS · DMG" height="40"></a>
+  </p>
+  <p><strong>0.1.0 Beta · build 53</strong> · macOS 14+ · Apple Silicon / Intel</p>
+  <p><a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53">Release notes</a> · <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.53/SHA256SUMS.txt">SHA-256</a></p>
   <p><strong>Your AI usage, at a glance.</strong></p>
   <p>Quotas, usage history, reset outlook, and calming sounds<br>in your Mac menu bar.</p>
   <p><a href="#current-version">Current version</a> · <a href="#overview">Overview</a> · <a href="#install">Install</a> · <a href="#configuration">Configuration</a> · <a href="#privacy">Privacy</a> · <a href="README.zh-CN.md">简体中文</a></p>
