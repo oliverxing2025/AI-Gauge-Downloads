@@ -2,10 +2,10 @@
   <img src="assets/AppIcon-1024.png" alt="AI Gauge icon" width="104">
   <h1>AI Gauge</h1>
   <p>
-    <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.53/AI-Gauge.dmg"><img src="https://img.shields.io/badge/Download%20for%20macOS%20%C2%B7%20DMG-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS · DMG" height="40"></a>
+    <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.54/AI-Gauge.dmg"><img src="https://img.shields.io/badge/Download%20for%20macOS%20%C2%B7%20DMG-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS · DMG" height="40"></a>
   </p>
-  <p><strong>0.1.0 Beta · build 53</strong> · macOS 14+ · Apple Silicon / Intel</p>
-  <p><a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53">Release notes</a> · <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.53/SHA256SUMS.txt">SHA-256</a></p>
+  <p><strong>0.1.0 Beta · build 54</strong> · macOS 14+ · Apple Silicon / Intel</p>
+  <p><a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.54">Release notes</a> · <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.54/SHA256SUMS.txt">SHA-256</a></p>
   <p><strong>Your AI usage, at a glance.</strong></p>
   <p>Quotas, usage history, reset outlook, and calming sounds<br>in your Mac menu bar.</p>
   <p><a href="#current-version">Current version</a> · <a href="#overview">Overview</a> · <a href="#install">Install</a> · <a href="#configuration">Configuration</a> · <a href="#privacy">Privacy</a> · <a href="README.zh-CN.md">简体中文</a></p>
@@ -28,7 +28,7 @@ Rendered from the current app’s native UI components with fictional account an
 
 ## Current version
 
-**0.1.0 Beta · build 53.** Download the installer and SHA-256 checksum from the [Beta release](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53). AI Gauge is free to use; source code remains private.
+**0.1.0 Beta · build 54.** Download the installer and SHA-256 checksum from the [Beta release](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.54). AI Gauge is free to use; source code remains private.
 
 The app contains both Apple Silicon and Intel executables and requires macOS 14 or later. This build is ad-hoc signed, **not Developer ID signed or notarized**. Intel, macOS 14, fresh-user installation, and all experimental account flows still need real-device acceptance.
 
@@ -39,12 +39,14 @@ See [release status](distribution/RELEASE_STATUS.md) and [changes](distribution/
 | | Capability | What it does |
 | --- | --- | --- |
 | **01** | Quota at a glance | Menu-bar percentage and compact quota strip, with detailed quota rings. |
-| **02** | Usage history | Account statistics when available, local token history, and API-equivalent cost estimates. |
+| **02** | Usage history | Account statistics when available, account reference cost estimates, and local token history. |
 | **03** | Reset outlook | Official reset timestamps plus a clearly labeled, experimental community forecast. |
 | **04** | Live activity | A rotating rocket reflects Codex activity; optional background audio follows task state. |
 | **05** | A quiet interface | Compact panel, monochrome glass mode, Chinese/English, and local display name/avatar. |
 
 ## Provider support
+
+Codex shows “Yesterday tokens” using the same UTC day as the account estimate for yesterday. Account reporting may be delayed; missing yesterday data stays “Pending” without substituting another date. Hover over the estimate card for its calculation basis. Promotional images are unchanged; current behavior is described in the version notes.
 
 | Provider | Current scope | Verification boundary |
 | --- | --- | --- |
@@ -54,7 +56,7 @@ See [release status](distribution/RELEASE_STATUS.md) and [changes](distribution/
 | DeepSeek | API balance and separately connected platform usage | Experimental; real-account verification pending |
 | Kimi / WorkBuddy | Disabled placeholders | Not yet connected |
 
-Activity-driven rocket states and background sounds currently follow **Codex only**. Missing data remains unavailable rather than becoming zero. API-equivalent cost estimates are not subscription charges; local history may include multiple accounts previously used on the same Mac. Community reset odds are not an official promise.
+Activity-driven rocket states and background sounds currently follow **Codex only**. Missing data remains unavailable rather than becoming zero. Codex account estimates for yesterday and this month use account-reported daily tokens at a fixed reference rate of **$1 per million tokens**, with UTC dates. Devices with the same account data produce the same result. This benchmark is not official model pricing or an actual bill; unreported days or usage are excluded, with no fallback to local logs. Claude local costs remain model-based API-equivalent estimates; local history may include multiple accounts previously used on the same Mac. Community reset odds are not an official promise.
 
 ![White noise selection](assets/showcase/sounds-en.jpg)
 
@@ -62,7 +64,7 @@ Activity-driven rocket states and background sounds currently follow **Codex onl
 
 ## Install
 
-1. Download `AI-Gauge.dmg` and `SHA256SUMS.txt` from the [Beta release](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53).
+1. Download `AI-Gauge.dmg` and `SHA256SUMS.txt` from the [Beta release](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.54).
 2. Verify the file with `shasum -a 256 -c SHA256SUMS.txt` from that folder.
 3. Open the DMG and drag **AI Gauge** into **Applications**.
 4. Open it from Applications, then eject the installation disk. Click the rocket in the top menu bar.
@@ -117,4 +119,3 @@ Donations are entirely optional. All features are free to use, whether or not yo
 AI Gauge is **free to use, closed source**. See [usage terms](distribution/TERMS.md). Third-party materials retain their own licenses; this project does not claim an MIT license for its proprietary code.
 
 Thanks to [CodexBar](https://github.com/steipete/CodexBar), [VibeStick-Codex](https://github.com/oliverxing2025/VibeStick-Codex), SweetCookieKit and LobeHub. Individual audio authors and licenses are listed in [audio credits](assets/sounds/CREDITS.md) and [third-party notices](distribution/THIRD_PARTY.md). The original licensing basis for the preserved rain/cabin sources still needs independent confirmation before public distribution.
-

@@ -1,3 +1,19 @@
+# 0.1.0 Beta · build 54 — 2026-09-07
+
+- Codex 昨日／当月金额改为账户已报 Token × $1 / 百万 Token 的统一参考估算，不再使用本机费用；非模型官方报价或实际账单。
+- “今日 Token”改为“昨日 Token”，与“本账户昨日估算”按同一 UTC 日期读取，缺失数据保留“待更新”。
+- 金额卡片移除两行常驻说明，折算口径改为悬停提示；中英文标签同步更新。
+- 收紧账户身份匹配，身份未知或不一致时不展示账户估算。
+- 中英文 README 更新统计口径、昨日数据说明及微信咖啡赞赏码；宣传图片保持原样。
+
+- Codex estimates now use account-reported tokens at a fixed $1 per million token benchmark, not local costs, official model pricing, or an actual bill.
+- Show yesterday's tokens and estimate for the same UTC day; missing data remains pending.
+- Move calculation notes to hover help and update Chinese and English labels.
+- Hide account analytics when account identity is unknown or mismatched.
+- Update both READMEs, including optional WeChat coffee support. Promotional images are unchanged.
+
+This beta remains ad-hoc signed and not notarized. New-device and cross-device account validation remain pending.
+
 # 0.1.0 Beta · build 53 — 2026-09-07
 
 - 设置旁新增单色／彩色快捷切换，支持中英文提示。

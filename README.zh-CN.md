@@ -2,10 +2,10 @@
   <img src="assets/AppIcon-1024.png" alt="AI Gauge icon" width="104">
   <h1>AI Gauge</h1>
   <p>
-    <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.53/AI-Gauge.dmg"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%20macOS%20%E5%AE%89%E8%A3%85%E5%8C%85%20%C2%B7%20DMG-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="下载 macOS 安装包 · DMG" height="40"></a>
+    <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.54/AI-Gauge.dmg"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%20macOS%20%E5%AE%89%E8%A3%85%E5%8C%85%20%C2%B7%20DMG-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="下载 macOS 安装包 · DMG" height="40"></a>
   </p>
-  <p><strong>0.1.0 Beta · build 53</strong> · macOS 14+ · Apple Silicon / Intel</p>
-  <p><a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53">版本说明</a> · <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.53/SHA256SUMS.txt">SHA-256</a></p>
+  <p><strong>0.1.0 Beta · build 54</strong> · macOS 14+ · Apple Silicon / Intel</p>
+  <p><a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.54">版本说明</a> · <a href="https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/download/v0.1.0-beta.54/SHA256SUMS.txt">SHA-256</a></p>
   <p><strong>AI 用量与状态，一眼掌握。</strong></p>
   <p>额度、用量、重置预报与运行时白噪音<br>收进 Mac 顶部菜单栏。</p>
   <p><a href="#当前版本">当前版本</a> · <a href="#功能概览">功能概览</a> · <a href="#安装">安装</a> · <a href="#设置">设置</a> · <a href="#隐私">隐私</a> · <a href="README.md">English</a></p>
@@ -28,7 +28,7 @@
 
 ## 当前版本
 
-**0.1.0 Beta · build 53**。从 [Beta 下载页](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53) 获取安装包和 SHA-256 校验文件。免费使用，源码保持私有。
+**0.1.0 Beta · build 54**。从 [Beta 下载页](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.54) 获取安装包和 SHA-256 校验文件。免费使用，源码保持私有。
 
 安装包包含 Apple 芯片和 Intel 双架构，要求 macOS 14 或更高版本。当前为临时签名，**尚未完成 Developer ID 签名及 Apple 公证**。Intel、macOS 14、新用户首次安装及实验性账号流程仍需实机验收。
 
@@ -39,12 +39,14 @@
 | | 功能 | 使用体验 |
 | --- | --- | --- |
 | **01** | 额度一览 | 状态栏百分比与小方块额度条，点击展开额度圆环。 |
-| **02** | 用量统计 | 可用的官方账户统计、本机 Token 历史和 API 等价费用估算。 |
+| **02** | 用量统计 | 可用的官方账户统计、账户参考金额估算和本机 Token 历史。 |
 | **03** | 重置预报 | 官方重置时间，以及明确标为参考信息的网友预测。 |
 | **04** | 任务状态 | 火箭随 Codex 状态自转，运行时可播放白噪音。 |
 | **05** | 简洁界面 | 紧凑面板、单色玻璃、中英文切换及本机名称与头像。 |
 
 ## AI 支持范围
+
+Codex 显示“昨日 Token”，与“本账户昨日估算”使用相同的 UTC 昨日记录。账户统计可能延迟上报；缺少昨日记录时显示“待更新”，不挪用其他日期的数据。金额卡片的折算口径可通过悬停查看。宣传图片保留原版，文字以当前版本说明为准。
 
 | AI | 当前功能 | 验证情况 |
 | --- | --- | --- |
@@ -54,7 +56,7 @@
 | DeepSeek | API 余额及独立连接的平台用量 | 实验性，真实账号验证待完成 |
 | Kimi / WorkBuddy | 灰显占位 | 暂未接入 |
 
-火箭任务状态和运行时白噪音目前仅跟随 **Codex**。缺失数据显示不可用，不冒充零值。费用是 API 等价估算，不是订阅账单；本机日志可能包含不同账号时期的数据。网友重置预测不代表官方承诺。
+火箭任务状态和运行时白噪音目前仅跟随 **Codex**。缺失数据显示不可用，不冒充零值。Codex 的“本账户昨日估算”和“本账户当月估算”按账户已返回的每日 Token，以 **$1 / 百万 Token** 统一参考折算，采用 UTC 日期；同一账户在各电脑取得相同数据时结果一致。此单价不是模型官方报价，估算不是实际账单，未返回的日期或用量不计入，也不回退到本机日志。Claude 的本机费用仍按模型 API 等价估算；本机日志可能包含不同账号时期的数据。网友重置预测不代表官方承诺。
 
 ![白噪音选择](assets/showcase/sounds-zh.jpg)
 
@@ -62,7 +64,7 @@
 
 ## 安装
 
-1. 从 [Beta 下载页](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.53) 取得 DMG 与 `SHA256SUMS.txt`。
+1. 从 [Beta 下载页](https://github.com/oliverxing2025/AI-Gauge-Downloads/releases/tag/v0.1.0-beta.54) 取得 DMG 与 `SHA256SUMS.txt`。
 2. 在该文件夹执行 `shasum -a 256 -c SHA256SUMS.txt` 核对安装包。
 3. 双击 DMG，将 **AI Gauge** 拖入 **Applications（应用程序）**。
 4. 从应用程序中打开，再推出安装磁盘；点击顶部菜单栏的火箭查看面板。
@@ -117,4 +119,3 @@ Codex 需要本机已安装并登录客户端；Claude 使用本机已有登录�
 AI Gauge **免费使用，源码不公开**，详见[使用许可](distribution/TERMS.md)。第三方材料保留各自许可，不将整个项目标为 MIT 开源。
 
 感谢 [CodexBar](https://github.com/steipete/CodexBar)、[VibeStick-Codex](https://github.com/oliverxing2025/VibeStick-Codex)、SweetCookieKit 和 LobeHub。音频作者及逐项许可见[音频来源](assets/sounds/CREDITS.md)与[第三方说明](distribution/THIRD_PARTY.md)。保留的雨声、机舱素材仍需独立核实原始授权依据后再公开分发。
-
